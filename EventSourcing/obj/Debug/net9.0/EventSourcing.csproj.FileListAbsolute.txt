@@ -1,0 +1,14 @@
+/Users/saidkapicioglu/RiderProjects/EventSourcing/EventSourcing/bin/Debug/net9.0/EventSourcing
+/Users/saidkapicioglu/RiderProjects/EventSourcing/EventSourcing/bin/Debug/net9.0/EventSourcing.deps.json
+/Users/saidkapicioglu/RiderProjects/EventSourcing/EventSourcing/bin/Debug/net9.0/EventSourcing.runtimeconfig.json
+/Users/saidkapicioglu/RiderProjects/EventSourcing/EventSourcing/bin/Debug/net9.0/EventSourcing.dll
+/Users/saidkapicioglu/RiderProjects/EventSourcing/EventSourcing/bin/Debug/net9.0/EventSourcing.pdb
+/Users/saidkapicioglu/RiderProjects/EventSourcing/EventSourcing/obj/Debug/net9.0/EventSourcing.GeneratedMSBuildEditorConfig.editorconfig
+/Users/saidkapicioglu/RiderProjects/EventSourcing/EventSourcing/obj/Debug/net9.0/EventSourcing.AssemblyInfoInputs.cache
+/Users/saidkapicioglu/RiderProjects/EventSourcing/EventSourcing/obj/Debug/net9.0/EventSourcing.AssemblyInfo.cs
+/Users/saidkapicioglu/RiderProjects/EventSourcing/EventSourcing/obj/Debug/net9.0/EventSourcing.csproj.CoreCompileInputs.cache
+/Users/saidkapicioglu/RiderProjects/EventSourcing/EventSourcing/obj/Debug/net9.0/EventSourcing.dll
+/Users/saidkapicioglu/RiderProjects/EventSourcing/EventSourcing/obj/Debug/net9.0/refint/EventSourcing.dll
+/Users/saidkapicioglu/RiderProjects/EventSourcing/EventSourcing/obj/Debug/net9.0/EventSourcing.pdb
+/Users/saidkapicioglu/RiderProjects/EventSourcing/EventSourcing/obj/Debug/net9.0/EventSourcing.genruntimeconfig.cache
+/Users/saidkapicioglu/RiderProjects/EventSourcing/EventSourcing/obj/Debug/net9.0/ref/EventSourcing.dll
