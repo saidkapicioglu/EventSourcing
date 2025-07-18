@@ -1,4 +1,5 @@
-﻿using EventSourcing.CQRS.Command;
+using EventSourcing;
+using EventSourcing.CQRS.Command;
 using EventSourcing.CQRS.Query;
 using EventSourcing.Event;
 
@@ -16,5 +17,18 @@ class Program
         broker.Query(new GetAdQueryRequest { Id = 2 });
 
         broker.WriteAllEvents();
+        
+        // Clear ad list for replay events
+        Console.WriteLine($"----------------------------------------------------------");
+        var clearList = AdSource.ClearList;
+        AdSource.AdList.ForEach(e => Console.WriteLine($"{e}\n***********"));
+        Console.WriteLine($"----------------------------------------------------------");
+
+        // Replay the events
+        var replayer = new ReplayEngine();
+        var currentAds = replayer.Replay(broker.AllEvents);
+
+        // Display the rebuilt ads after replaying events
+        AdSource.AdList.ForEach(e => Console.WriteLine($"{e}\n***********"));
     }
 }
